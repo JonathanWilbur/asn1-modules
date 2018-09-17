@@ -56,7 +56,12 @@ I retrieved most of these specifications from
 
 ## Todo
 
-- [ ] Under `{joint-iso-itu-t(2) ds(5) module(1)}`:
+Some of the todos are crossed out because I can't find them.
+
+- [ ] Under `{joint-iso-itu-t(2) association-control(2) modules(0)}`:
+  - [ ] apdus(0)
+  - [ ] acse1(1)
+- [x] Under `{joint-iso-itu-t(2) ds(5) module(1)}`:
   - [x] usefulDefinitions(0)
   - [x] informationFramework(1)
   - [x] directoryAbstractService(2)
@@ -66,17 +71,17 @@ I retrieved most of these specifications from
   - [x] selectedObjectClasses(6)
   - [x] authenticationFramework(7)
   - [x] algorithmObjectIdentifiers(8)
-  - [ ] directoryObjectIdentifiers(9) **Missing from the site**
+  - [ ] ~~directoryObjectIdentifiers(9)~~
   - [x] upperBounds(10)
   - [x] dap(11)
   - [x] dsp(12)
-  - [ ] distributedDirectoryOIDs(13) **Missing from the site**
-  - [ ] directoryShadowOIDs(14) **Missing from the site**
+  - [ ] ~~distributedDirectoryOIDs(13)~~
+  - [ ] ~~directoryShadowOIDs(14)~~
   - [x] directoryShadowAbstractService(15)
   - [x] disp(16)
   - [x] dop(17)
   - [x] opBindingManagement(18)
-  - [ ] opBindingOIDs(19) **Missing from the site**
+  - [ ] ~~opBindingOIDs(19)~~
   - [x] hierarchicalOperationalBindings(20)
   - [x] dsaOperationalAttributeTypes(22)
   - [x] schemaAdministration(23)
@@ -90,7 +95,7 @@ I retrieved most of these specifications from
   - [x] directoryIDMProtocols(31)
   - [x] attributeCertificateDefinitions(32)
   - [x] serviceAdministration(33)
-  - [ ] externalDefinitions(34) **Missing from the site**
+  - [ ] ~~externalDefinitions(34)~~
   - [x] commonProtocolSpecification(35)
   - [x] oSIProtocolSpecification(36) **WARNING: I don't think this one was correct, either.**
   - [x] directoryOSIProtocols(37)
@@ -100,7 +105,7 @@ I retrieved most of these specifications from
   - [x] extensionAttributes(41)
   - [x] pkiPmiWrapper(42)
   - [x] pkiPMIProtocolSpecifications(43)
-  - [ ] 44
+  - [ ] ~~trustBrokerProtocol(44)~~
 
 ## See Also
 
