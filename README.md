@@ -58,9 +58,6 @@ I retrieved most of these specifications from
 
 Some of the todos are crossed out because I can't find them.
 
-- [ ] Under `{joint-iso-itu-t(2) association-control(2) modules(0)}`:
-  - [ ] apdus(0)
-  - [ ] acse1(1)
 - [x] Under `{joint-iso-itu-t(2) ds(5) module(1)}`:
   - [x] usefulDefinitions(0)
   - [x] informationFramework(1)
