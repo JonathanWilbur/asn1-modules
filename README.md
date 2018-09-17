@@ -3,7 +3,7 @@
 * Author: [Jonathan M. Wilbur](https://jonathan.wilbur.space) <[jonathan@wilbur.space](mailto:jonathan@wilbur.space)>
 * Copyright Year: 2018
 * License: [MIT License](https://mit-license.org/)
-* Version: 1.0.0
+* Version: 0.1.0
 
 ## What is ASN.1?
 
@@ -49,6 +49,11 @@ If you look in the
 [`asn1` directory of WireShark's source code](https://github.com/wireshark/wireshark/tree/master/epan/dissectors/asn1),
 you'll see all of the protocols that use ASN.1.
 
+## Sources
+
+I retrieved most of these specifications from
+[this database](https://www.itu.int/ITU-T/recommendations/fl.aspx?lang=1).
+
 ## Todo
 
 - [ ] Under `{joint-iso-itu-t(2) ds(5) module(1)}`:
@@ -60,41 +65,41 @@ you'll see all of the protocols that use ASN.1.
   - [x] selectedAttributeTypes(5)
   - [x] selectedObjectClasses(6)
   - [x] authenticationFramework(7)
-  - [ ] algorithmObjectIdentifiers(8)
-  - [ ] directoryObjectIdentifiers(9)
-  - [ ] upperBounds(10)
-  - [ ] dap(11)
-  - [ ] dsp(12)
-  - [ ] distributedDirectoryOIDs(13)
-  - [ ] directoryShadowOIDs(14)
-  - [ ] directoryShadowAbstractService(15)
-  - [ ] disp(16)
-  - [ ] dop(17)
-  - [ ] opBindingManagement(18)
-  - [ ] opBindingOIDs(19)
-  - [ ] hierarchicalOperationalBindings(20)
-  - [ ] dsaOperationalAttributeTypes(22)
-  - [ ] schemaAdministration(23)
-  - [ ] basicAccessControl(24)
-  - [ ] directoryOperationalBindingTypes(25)
-  - [ ] certificateExtensions(26)
-  - [ ] directoryManagement(27)
-  - [ ] enhancedSecurity(28)
-  - [ ] directorySecurityExchanges(29)
-  - [ ] iDMProtocolSpecification(30)
-  - [ ] directoryIDMProtocols(31)
-  - [ ] attributeCertificateDefinitions(32)
-  - [ ] serviceAdministration(33)
-  - [ ] externalDefinitions(34)
-  - [ ] commonProtocolSpecification(35)
-  - [ ] oSIProtocolSpecification(36)
-  - [ ] directoryOSIProtocols(37)
-  - [ ] ldapSystemSchema(38)
-  - [ ] 39
+  - [x] algorithmObjectIdentifiers(8)
+  - [ ] directoryObjectIdentifiers(9) **Missing from the site**
+  - [x] upperBounds(10)
+  - [x] dap(11)
+  - [x] dsp(12)
+  - [ ] distributedDirectoryOIDs(13) **Missing from the site**
+  - [ ] directoryShadowOIDs(14) **Missing from the site**
+  - [x] directoryShadowAbstractService(15)
+  - [x] disp(16)
+  - [x] dop(17)
+  - [x] opBindingManagement(18)
+  - [ ] opBindingOIDs(19) **Missing from the site**
+  - [x] hierarchicalOperationalBindings(20)
+  - [x] dsaOperationalAttributeTypes(22)
+  - [x] schemaAdministration(23)
+  - [x] basicAccessControl(24)
+  - [x] directoryOperationalBindingTypes(25)
+  - [x] certificateExtensions(26) **WARNING: I don't think this one was correct.**
+  - [x] directoryManagement(27)
+  - [x] enhancedSecurity(28)
+  - [x] directorySecurityExchanges(29)
+  - [x] iDMProtocolSpecification(30)
+  - [x] directoryIDMProtocols(31)
+  - [x] attributeCertificateDefinitions(32)
+  - [x] serviceAdministration(33)
+  - [ ] externalDefinitions(34) **Missing from the site**
+  - [x] commonProtocolSpecification(35)
+  - [x] oSIProtocolSpecification(36) **WARNING: I don't think this one was correct, either.**
+  - [x] directoryOSIProtocols(37)
+  - [x] ldapSystemSchema(38) **WARNING: Or this one...**
+  - [x] passwordPolicy(39)
   - [x] pkiPmiExternalDataTypes(40)
-  - [ ] 41
-  - [ ] 42
-  - [ ] 43
+  - [x] extensionAttributes(41)
+  - [x] pkiPmiWrapper(42)
+  - [x] pkiPMIProtocolSpecifications(43)
   - [ ] 44
 
 ## See Also
